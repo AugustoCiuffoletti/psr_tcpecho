@@ -8,5 +8,5 @@ s.connect((host,int(port)))                            # Connessione (3-way hand
 msg = raw_input('Stringa da spedire: ')
 s.send(msg)                                            # Spedizione messaggio
 data = s.recv(buflen)                                  # Attesa risposta
-print 'Stringa ricevuta: ', data
+print('Stringa ricevuta: '+data)
 s.close()                                              # Chiusura socket
