@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import socket
 host = raw_input('Scegli un host: ')
 port = raw_input('Scegli una porta: ')

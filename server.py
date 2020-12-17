@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import socket
 port = raw_input('Su quale porta apri il servizio?> ')
 queuelen = 5
