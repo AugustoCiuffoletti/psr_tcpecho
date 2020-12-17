@@ -12,7 +12,7 @@ try:
         data = client.recv(buflen)                      # Ricezione messaggio
         if data:
             client.send(data)                           # Spedizione messaggio
-            print ('Stringa scambiata: '+data.decode('utf8')192.168.5.10)
+            print ('Stringa scambiata: '+data.decode('utf8'))
             client.close()                              # Chiusura socket
             print ('Servizio concluso')
 except KeyboardInterrupt:
